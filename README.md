@@ -10,7 +10,7 @@ Special thanks to: Theo WAF and Melanated Cyber Kings Group Leader Charles Manni
 Test 1: https://github.com/KTMachine/gcp_armageddon_test
 - Resources were deployed successfully
 - I thought the project was finished too easily
-- My group, Melanated Cyber Kings, were going to finish up our own group project with our Snyck scan. 
+- My group, Melanated Cyber Kings, were going to finish up our own group project with our Snyk scan. 
 - I decided to continue to re-analyze the project and what was needed to complete the project
 
 Test 2: https://github.com/KTMachine/gcp_armageddon_test_2
