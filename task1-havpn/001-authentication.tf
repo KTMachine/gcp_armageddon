@@ -2,7 +2,7 @@ provider "google" {
   alias       = "balerica"
   project     = var.balerica_project
   region      = var.region_balerica
-  credentials = "service-p1-462917-0ee847277508.json"    # Replace with First JSON key
+  credentials = "service-p1-462917-0ee847277508.json" # Replace with First JSON key
 }
 
 provider "google" {
@@ -16,5 +16,5 @@ provider "google" {
   alias       = "other"
   project     = var.other_project
   region      = var.region_other
-  credentials = "service-p2-462917-b22a9e94f9cd.json"    # Replace with Second JSON key
+  credentials = "service-p2-462917-b22a9e94f9cd.json" # Replace with Second JSON key
 }

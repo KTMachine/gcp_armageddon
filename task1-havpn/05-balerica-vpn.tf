@@ -13,7 +13,7 @@ resource "google_compute_vpn_tunnel" "balerica_tunnel0" {
   region                = var.region_balerica
   vpn_gateway           = google_compute_ha_vpn_gateway.balerica_ha_gateway.id
   peer_gcp_gateway      = google_compute_ha_vpn_gateway.invictus_ha_gateway.id
-  shared_secret         = "Frz2yPKCEXo48zkZyGULOq6Oj00jN6b1FADzAzM3gayqtgfMY6Xz9lHT9JikXuPW"                               # PSK 1
+  shared_secret         = "Frz2yPKCEXo48zkZyGULOq6Oj00jN6b1FADzAzM3gayqtgfMY6Xz9lHT9JikXuPW" # PSK 1
   router                = google_compute_router.balerica_router.id
   vpn_gateway_interface = 0
   ike_version           = 2
@@ -25,7 +25,7 @@ resource "google_compute_vpn_tunnel" "balerica_tunnel1" {
   region                = var.region_balerica
   vpn_gateway           = google_compute_ha_vpn_gateway.balerica_ha_gateway.id
   peer_gcp_gateway      = google_compute_ha_vpn_gateway.invictus_ha_gateway.id
-  shared_secret         = "JxUK5yDx9mXTFETzvmRmoal3fuoqV0TnRalr3AclytGGbFx6wCUZri891jEzCyRk"                                      # PSK 2
+  shared_secret         = "JxUK5yDx9mXTFETzvmRmoal3fuoqV0TnRalr3AclytGGbFx6wCUZri891jEzCyRk" # PSK 2
   router                = google_compute_router.balerica_router.id
   vpn_gateway_interface = 1
   ike_version           = 2

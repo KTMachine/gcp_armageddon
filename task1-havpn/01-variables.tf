@@ -1,19 +1,19 @@
 variable "balerica_project" {
   description = "Balerica Inc. GCP project ID"
   type        = string
-  default     = "service-p1-462917"                          # Change with second Project ID
+  default     = "service-p1-462917" # Change with second Project ID
 }
 
 variable "invictus_project" {
   description = "Invictus GCP project ID"
   type        = string
-  default     = "invictus-65"                         # Change with first Project ID
+  default     = "invictus-65" # Change with first Project ID
 }
 
 variable "other_project" {
   description = "Other GCP project ID"
   type        = string
-  default     = "service-p2-462917"                          # Change with third Project ID
+  default     = "service-p2-462917" # Change with third Project ID
 }
 
 variable "region_balerica" {
