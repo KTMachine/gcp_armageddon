@@ -169,3 +169,11 @@ BACKGROUND_IMAGE=https://cliply.co/wp-content/uploads/2019/12/401912580_BLACK_LI
 ![Cloud Run 23](photos/Cloud%20Run%2023.png)
 
 ![Cloud Run 24](photos/Cloud%20Run%2024.png)
+
+
+## Acknowledgments
+
+# Special Thanks To
+- Theo WAF
+- T.I.Q.S. 
+- Charles Manning
